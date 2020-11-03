@@ -71,3 +71,25 @@ main {
   color: #fff;
 }
 
+@media screen and (min-width: 320px) {
+  body {
+    background-color: cadetblue;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: brown;
+  }
+}
+
+
+@media screen and (min-width: 1210px) {
+  body {
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+  }
+}
